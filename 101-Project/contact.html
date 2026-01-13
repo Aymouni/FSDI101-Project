@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Culture</title>
+    <link rel="icon" type="image/x-icon" href="https://projectkahn.com/cdn/shop/products/LamborghiniHuracanEVOSpyderFrontBLACK.jpg?v=1602937642">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+        <div class="menu-bar-flex">
+            <h1>Cars and Automotive Design</h1> 
+            <nav class="menu">
+                <ul class="menu-link-container">
+                    <li class="menu-link"><a href="index.html">Home</a></li>
+                    <li class="menu-link"><a href="gallery.html">Gallery</a></li>
+                    <li class="menu-link"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="inquire-btn" href="#">Inquire</a>
+        </div>
+    </header>
+    
+    <section class="container">
+        <h3>Contact Us</h3>
+        <form class="form-container container" action="">
+            <div class="input-container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+            </div>
+
+            <div class="input-container">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+            </div>
+
+            <div class="input-container">
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Choose a topic...</option>
+                    <option value="sales">New Vehicle Sales</option>
+                    <option value="used">Pre-Owned Vehicles</option>
+                    <option value="service">Service & Repairs</option>
+                    <option value="parts">Parts & Accessories</option>
+                    <option value="financing">Financing Options</option>
+                    <option value="test-drive">Schedule Test Drive</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <label for="vehicle">Vehicle Type:</label>
+                <select id="vehicle" name="vehicle">
+                    <option value="">Select Vehicle Type...</option>
+                    <option value="sedan">Sedan</option>
+                    <option value="suv">SUV</option>
+                    <option value="truck">Truck</option>
+                    <option value="sports">Sports Car</option>
+                    <option value="luxury">Luxury</option>
+                    <option value="electric">Electric/Hybrid</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <label>Contact By:</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="contact-method" value="email" checked> Email
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="contact-method" value="phone"> Phone
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="contact-method" value="text"> Text
+                    </label>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write Your Message Here" required></textarea>
+            </div>
+
+            <div class="input-container">
+                <label></label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter" class="checkbox-label">Sign me up for exclusive deals and news</label>
+                </div>
+            </div>
+
+            <div class="btn-container">
+                <button class="btn-send" type="submit">Send</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
