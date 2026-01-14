@@ -273,3 +273,96 @@ main p{
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(255, 68, 68, 0.3);
 }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Header */
+    .menu-bar-flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .menu {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .menu-link-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .inquire-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* Main */
+    main {
+        width: 95%;
+        margin: 30px auto;
+    }
+    
+    main h2 {
+        font-size: 28px;
+    }
+    
+    main p {
+        font-size: 14px;
+    }
+    
+    /* Gallery */
+    .flex-section {
+        flex-direction: column;
+        width: 95%;
+    }
+    
+    .card {
+        width: 100%;
+    }
+    
+    /* Form */
+    .container {
+        width: 95%;
+    }
+    
+    .form-container {
+        padding: 15px;
+    }
+    
+    .input-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .input-container label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .input-container input,
+    .input-container textarea,
+    .input-container select {
+        width: 100%;
+    }
+    
+    .radio-group {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .checkbox-group {
+        width: 100%;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    .btn-send {
+        width: 100%;
+    }
+}
