@@ -9,8 +9,12 @@ body{
 header{
     background-color: rgb(8, 1, 15);
 }
-h1,h2{
-    color: rgb(166, 14, 14);
+h1{
+    color: rgb(213, 84, 84);
+    padding: 10px
+}
+h2{
+    color: rgb(123, 8, 8);
     padding: 10px
 }
 p,ul{
@@ -162,9 +166,8 @@ main p{
 .container > h3{
     text-align: center;
     font-size: 24px;
-    color: #ff4444;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-family: Arial, sans-serif;
+    color: rgb(123, 8, 8);
 }
 .input-container{
     display: flex;
